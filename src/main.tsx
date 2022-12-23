@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <>
     <ColorModeScript initialColorMode={theme.config.initialColorMode} />
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <ChakraProvider theme={theme}>
         <App />
       </ChakraProvider>
