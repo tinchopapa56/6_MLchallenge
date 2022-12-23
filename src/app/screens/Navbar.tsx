@@ -5,6 +5,7 @@ import {BsCart2} from "react-icons/bs"
 import {Container, Stack, Box, Flex, Text, Image, Icon, StackDivider, Input} from "@chakra-ui/react";
 import logo from "../../assets/logo.png";
 
+
 const Navbar: React.FC = () => {
     return(
     <Box bg="primary.500" boxShadow="sm" paddingY={2}>
