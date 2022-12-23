@@ -34,7 +34,8 @@ export default extendTheme({
   },
   sizes: {
     container: {
-      xl: "1200px",
+      // xl: "1200px",
+      xl: "1260px",
     },
   },
   fonts: {
